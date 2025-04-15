@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 // Use environment variable for MongoDB URI
-const mongoURI = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/elearning';
+const mongoURI = process.env.MONGODB_URI || 'mongodb+srv://malraarshiya:MZeug1uLMhLhVury@elearningcluster.r2xv2bf.mongodb.net/?retryWrites=true&w=majority&appName=ElearningCluster';
 
 // Connect to MongoDB
 mongoose.connect(mongoURI, {
